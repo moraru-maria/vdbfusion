@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\MarchingCubes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\VDBVolume.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{272D5E90-4A1D-3BA0-BE3E-FDE09E3F1DED}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

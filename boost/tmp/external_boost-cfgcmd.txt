@@ -1,0 +1,1 @@
+cmd='<SOURCE_DIR>/bootstrap.sh;--with-libraries=iostreams,regex'

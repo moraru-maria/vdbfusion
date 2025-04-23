@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\39382bbc0817864990c3b0efddd828b9\external_boost-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\39382bbc0817864990c3b0efddd828b9\external_boost-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\39382bbc0817864990c3b0efddd828b9\external_boost-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\39382bbc0817864990c3b0efddd828b9\external_boost-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\39382bbc0817864990c3b0efddd828b9\external_boost-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\39382bbc0817864990c3b0efddd828b9\external_boost-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\39382bbc0817864990c3b0efddd828b9\external_boost-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\eac28677b667cbcbe7bcb3687ba02a96\external_boost-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\240ca2de4e58d99da2f5570902f6fb73\external_boost.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\external_boost" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DDC88A06-911A-34ED-B91D-B4887BC7DBDC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

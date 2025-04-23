@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EB8E91E8-B048-30B5-8019-C9CDC02B6531}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>vdbfusion</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vdbfusion.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vdbfusion</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vdbfusion.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vdbfusion</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vdbfusion.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vdbfusion</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vdbfusion.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vdbfusion</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion;C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\..;C:\Users\clab\Documents\GitHub\vdbfusion\openvdb\include;C:\Users\clab\Documents\GitHub\vdbfusion\boost\include;C:\Users\clab\Documents\GitHub\vdbfusion\tbb\include;C:\Users\clab\Documents\GitHub\vdbfusion\blosc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/clab/anaconda3/envs/gaustudio3/Library/include/eigen3" -Wextra</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion;C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\..;C:\Users\clab\Documents\GitHub\vdbfusion\openvdb\include;C:\Users\clab\Documents\GitHub\vdbfusion\boost\include;C:\Users\clab\Documents\GitHub\vdbfusion\tbb\include;C:\Users\clab\Documents\GitHub\vdbfusion\blosc\include;C:\Users\clab\anaconda3\envs\gaustudio3\Library\include\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion;C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\..;C:\Users\clab\Documents\GitHub\vdbfusion\openvdb\include;C:\Users\clab\Documents\GitHub\vdbfusion\boost\include;C:\Users\clab\Documents\GitHub\vdbfusion\tbb\include;C:\Users\clab\Documents\GitHub\vdbfusion\blosc\include;C:\Users\clab\anaconda3\envs\gaustudio3\Library\include\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion;C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\..;C:\Users\clab\Documents\GitHub\vdbfusion\openvdb\include;C:\Users\clab\Documents\GitHub\vdbfusion\boost\include;C:\Users\clab\Documents\GitHub\vdbfusion\tbb\include;C:\Users\clab\Documents\GitHub\vdbfusion\blosc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/clab/anaconda3/envs/gaustudio3/Library/include/eigen3" -Wextra</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion;C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\..;C:\Users\clab\Documents\GitHub\vdbfusion\openvdb\include;C:\Users\clab\Documents\GitHub\vdbfusion\boost\include;C:\Users\clab\Documents\GitHub\vdbfusion\tbb\include;C:\Users\clab\Documents\GitHub\vdbfusion\blosc\include;C:\Users\clab\anaconda3\envs\gaustudio3\Library\include\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion;C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\..;C:\Users\clab\Documents\GitHub\vdbfusion\openvdb\include;C:\Users\clab\Documents\GitHub\vdbfusion\boost\include;C:\Users\clab\Documents\GitHub\vdbfusion\tbb\include;C:\Users\clab\Documents\GitHub\vdbfusion\blosc\include;C:\Users\clab\anaconda3\envs\gaustudio3\Library\include\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion;C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\..;C:\Users\clab\Documents\GitHub\vdbfusion\openvdb\include;C:\Users\clab\Documents\GitHub\vdbfusion\boost\include;C:\Users\clab\Documents\GitHub\vdbfusion\tbb\include;C:\Users\clab\Documents\GitHub\vdbfusion\blosc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/clab/anaconda3/envs/gaustudio3/Library/include/eigen3" -Wextra</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion;C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\..;C:\Users\clab\Documents\GitHub\vdbfusion\openvdb\include;C:\Users\clab\Documents\GitHub\vdbfusion\boost\include;C:\Users\clab\Documents\GitHub\vdbfusion\tbb\include;C:\Users\clab\Documents\GitHub\vdbfusion\blosc\include;C:\Users\clab\anaconda3\envs\gaustudio3\Library\include\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion;C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\..;C:\Users\clab\Documents\GitHub\vdbfusion\openvdb\include;C:\Users\clab\Documents\GitHub\vdbfusion\boost\include;C:\Users\clab\Documents\GitHub\vdbfusion\tbb\include;C:\Users\clab\Documents\GitHub\vdbfusion\blosc\include;C:\Users\clab\anaconda3\envs\gaustudio3\Library\include\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion;C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\..;C:\Users\clab\Documents\GitHub\vdbfusion\openvdb\include;C:\Users\clab\Documents\GitHub\vdbfusion\boost\include;C:\Users\clab\Documents\GitHub\vdbfusion\tbb\include;C:\Users\clab\Documents\GitHub\vdbfusion\blosc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/clab/anaconda3/envs/gaustudio3/Library/include/eigen3" -Wextra</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion;C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\..;C:\Users\clab\Documents\GitHub\vdbfusion\openvdb\include;C:\Users\clab\Documents\GitHub\vdbfusion\boost\include;C:\Users\clab\Documents\GitHub\vdbfusion\tbb\include;C:\Users\clab\Documents\GitHub\vdbfusion\blosc\include;C:\Users\clab\anaconda3\envs\gaustudio3\Library\include\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion;C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\..;C:\Users\clab\Documents\GitHub\vdbfusion\openvdb\include;C:\Users\clab\Documents\GitHub\vdbfusion\boost\include;C:\Users\clab\Documents\GitHub\vdbfusion\tbb\include;C:\Users\clab\Documents\GitHub\vdbfusion\blosc\include;C:\Users\clab\anaconda3\envs\gaustudio3\Library\include\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/clab/Documents/GitHub/vdbfusion/src/vdbfusion/vdbfusion/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -SC:/Users/clab/Documents/GitHub/vdbfusion -BC:/Users/clab/Documents/GitHub/vdbfusion --check-stamp-file C:/Users/clab/Documents/GitHub/vdbfusion/src/vdbfusion/vdbfusion/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/clab/Documents/GitHub/vdbfusion/src/vdbfusion/vdbfusion/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -SC:/Users/clab/Documents/GitHub/vdbfusion -BC:/Users/clab/Documents/GitHub/vdbfusion --check-stamp-file C:/Users/clab/Documents/GitHub/vdbfusion/src/vdbfusion/vdbfusion/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/clab/Documents/GitHub/vdbfusion/src/vdbfusion/vdbfusion/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -SC:/Users/clab/Documents/GitHub/vdbfusion -BC:/Users/clab/Documents/GitHub/vdbfusion --check-stamp-file C:/Users/clab/Documents/GitHub/vdbfusion/src/vdbfusion/vdbfusion/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/clab/Documents/GitHub/vdbfusion/src/vdbfusion/vdbfusion/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -SC:/Users/clab/Documents/GitHub/vdbfusion -BC:/Users/clab/Documents/GitHub/vdbfusion --check-stamp-file C:/Users/clab/Documents/GitHub/vdbfusion/src/vdbfusion/vdbfusion/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\MarchingCubes.cpp" />
+    <ClCompile Include="C:\Users\clab\Documents\GitHub\vdbfusion\src\vdbfusion\vdbfusion\VDBVolume.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\clab\Documents\GitHub\vdbfusion\ZERO_CHECK.vcxproj">
+      <Project>{5B7166F8-F9F0-33D1-99F8-2ABD1A0D4604}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\clab\Documents\GitHub\vdbfusion\external_blosc.vcxproj">
+      <Project>{7D865A23-F2B1-36E9-B42F-8202D6D23054}</Project>
+      <Name>external_blosc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\clab\Documents\GitHub\vdbfusion\external_openvdb.vcxproj">
+      <Project>{FCF5EF27-C39F-3E59-975F-050CADA0A3A6}</Project>
+      <Name>external_openvdb</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\clab\Documents\GitHub\vdbfusion\external_tbb.vcxproj">
+      <Project>{4BA8E76E-40E4-3ADC-B3FC-2CEFE62F5CFB}</Project>
+      <Name>external_tbb</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

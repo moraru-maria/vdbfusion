@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=C:/Users/clab/anaconda3/envs/gaustudio3/Library/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/clab/Documents/GitHub/vdbfusion/blosc/src/external_blosc-stamp/download-external_blosc.cmake;COMMAND;C:/Users/clab/anaconda3/envs/gaustudio3/Library/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/clab/Documents/GitHub/vdbfusion/blosc/src/external_blosc-stamp/verify-external_blosc.cmake;COMMAND;C:/Users/clab/anaconda3/envs/gaustudio3/Library/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/clab/Documents/GitHub/vdbfusion/blosc/src/external_blosc-stamp/extract-external_blosc.cmake
+source_dir=C:/Users/clab/Documents/GitHub/vdbfusion/blosc/src/external_blosc
+work_dir=C:/Users/clab/Documents/GitHub/vdbfusion/blosc/src
+url(s)=https://github.com/Blosc/c-blosc/archive/refs/tags/v1.5.0.tar.gz
+hash=SHA256=208ba4db0e5116421ed2fbbdf2adfa3e1d133d29a6324a0f47cf2d71f3810c92
+      no_extract=
+

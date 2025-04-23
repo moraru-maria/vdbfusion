@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=C:/Users/clab/anaconda3/envs/gaustudio3/Library/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/clab/Documents/GitHub/vdbfusion/tbb/src/external_tbb-stamp/download-external_tbb.cmake;COMMAND;C:/Users/clab/anaconda3/envs/gaustudio3/Library/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/clab/Documents/GitHub/vdbfusion/tbb/src/external_tbb-stamp/verify-external_tbb.cmake;COMMAND;C:/Users/clab/anaconda3/envs/gaustudio3/Library/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/clab/Documents/GitHub/vdbfusion/tbb/src/external_tbb-stamp/extract-external_tbb.cmake
+source_dir=C:/Users/clab/Documents/GitHub/vdbfusion/tbb/src/external_tbb
+work_dir=C:/Users/clab/Documents/GitHub/vdbfusion/tbb/src
+url(s)=https://github.com/nachovizzo/tbb/archive/refs/tags/tbbstatic.tar.gz
+hash=SHA256=db5ede77c4bd10ad12fab11ed38b7e8cf80aba85db16a57514073c383e6c8630
+      no_extract=
+

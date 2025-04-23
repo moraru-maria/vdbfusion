@@ -1,0 +1,832 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{73F1B70D-E7E0-386E-87DD-BE7FEE040726}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>external_boost</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\39382bbc0817864990c3b0efddd828b9\external_boost-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -Dcfgdir=/Debug -P C:/Users/clab/Documents/GitHub/vdbfusion/boost/tmp/external_boost-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/Debug/external_boost-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Debug\external_boost-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Creating directories for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -Dcfgdir=/Release -P C:/Users/clab/Documents/GitHub/vdbfusion/boost/tmp/external_boost-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/Release/external_boost-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Release\external_boost-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Creating directories for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -Dcfgdir=/MinSizeRel -P C:/Users/clab/Documents/GitHub/vdbfusion/boost/tmp/external_boost-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/MinSizeRel/external_boost-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\MinSizeRel\external_boost-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Creating directories for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -Dcfgdir=/RelWithDebInfo -P C:/Users/clab/Documents/GitHub/vdbfusion/boost/tmp/external_boost-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/RelWithDebInfo/external_boost-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\RelWithDebInfo\external_boost-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\39382bbc0817864990c3b0efddd828b9\external_boost-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (download, verify and extract) for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\clab\Documents\GitHub\vdbfusion\boost\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/download-external_boost.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/verify-external_boost.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/extract-external_boost.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/Debug/external_boost-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\download-external_boost.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\external_boost-urlinfo.txt;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Debug\external_boost-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Debug\external_boost-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing download step (download, verify and extract) for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\clab\Documents\GitHub\vdbfusion\boost\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/download-external_boost.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/verify-external_boost.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/extract-external_boost.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/Release/external_boost-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\download-external_boost.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\external_boost-urlinfo.txt;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Release\external_boost-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Release\external_boost-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing download step (download, verify and extract) for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\clab\Documents\GitHub\vdbfusion\boost\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/download-external_boost.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/verify-external_boost.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/extract-external_boost.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/MinSizeRel/external_boost-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\download-external_boost.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\external_boost-urlinfo.txt;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\MinSizeRel\external_boost-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\MinSizeRel\external_boost-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing download step (download, verify and extract) for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\clab\Documents\GitHub\vdbfusion\boost\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/download-external_boost.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/verify-external_boost.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/extract-external_boost.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/RelWithDebInfo/external_boost-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\download-external_boost.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\external_boost-urlinfo.txt;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\RelWithDebInfo\external_boost-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\RelWithDebInfo\external_boost-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\39382bbc0817864990c3b0efddd828b9\external_boost-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No update step for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/Debug/external_boost-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\external_boost-update-info.txt;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Debug\external_boost-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Debug\external_boost-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No update step for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/Release/external_boost-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\external_boost-update-info.txt;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Release\external_boost-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Release\external_boost-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No update step for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/MinSizeRel/external_boost-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\external_boost-update-info.txt;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\MinSizeRel\external_boost-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\MinSizeRel\external_boost-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No update step for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/RelWithDebInfo/external_boost-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\external_boost-update-info.txt;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\RelWithDebInfo\external_boost-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\RelWithDebInfo\external_boost-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\39382bbc0817864990c3b0efddd828b9\external_boost-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/Debug/external_boost-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\external_boost-patch-info.txt;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Debug\external_boost-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Debug\external_boost-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No patch step for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/Release/external_boost-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\external_boost-patch-info.txt;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Release\external_boost-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Release\external_boost-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No patch step for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/MinSizeRel/external_boost-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\external_boost-patch-info.txt;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\MinSizeRel\external_boost-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\MinSizeRel\external_boost-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No patch step for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/RelWithDebInfo/external_boost-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\external_boost-patch-info.txt;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\RelWithDebInfo\external_boost-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\RelWithDebInfo\external_boost-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\39382bbc0817864990c3b0efddd828b9\external_boost-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing configure step for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost\bootstrap.sh --with-libraries=iostreams,regex
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/Debug/external_boost-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\tmp\external_boost-cfgcmd.txt;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Debug\external_boost-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Debug\external_boost-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing configure step for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost\bootstrap.sh --with-libraries=iostreams,regex
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/Release/external_boost-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\tmp\external_boost-cfgcmd.txt;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Release\external_boost-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Release\external_boost-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing configure step for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost\bootstrap.sh --with-libraries=iostreams,regex
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/MinSizeRel/external_boost-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\tmp\external_boost-cfgcmd.txt;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\MinSizeRel\external_boost-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\MinSizeRel\external_boost-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing configure step for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost\bootstrap.sh --with-libraries=iostreams,regex
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/RelWithDebInfo/external_boost-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\tmp\external_boost-cfgcmd.txt;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\RelWithDebInfo\external_boost-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\RelWithDebInfo\external_boost-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\39382bbc0817864990c3b0efddd828b9\external_boost-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/Debug/external_boost-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Debug\external_boost-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Debug\external_boost-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No build step for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/Release/external_boost-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Release\external_boost-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Release\external_boost-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No build step for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/MinSizeRel/external_boost-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\MinSizeRel\external_boost-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\MinSizeRel\external_boost-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No build step for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/RelWithDebInfo/external_boost-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\RelWithDebInfo\external_boost-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\RelWithDebInfo\external_boost-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\39382bbc0817864990c3b0efddd828b9\external_boost-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing install step for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost\b2 install link=static warnings=off cxxflags=-fPIC cflags=-fPIC --prefix=C:/Users/clab/Documents/GitHub/vdbfusion/boost
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/Debug/external_boost-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Debug\external_boost-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Debug\external_boost-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing install step for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost\b2 install link=static warnings=off cxxflags=-fPIC cflags=-fPIC --prefix=C:/Users/clab/Documents/GitHub/vdbfusion/boost
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/Release/external_boost-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Release\external_boost-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Release\external_boost-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing install step for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost\b2 install link=static warnings=off cxxflags=-fPIC cflags=-fPIC --prefix=C:/Users/clab/Documents/GitHub/vdbfusion/boost
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/MinSizeRel/external_boost-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\MinSizeRel\external_boost-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\MinSizeRel\external_boost-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing install step for 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost\b2 install link=static warnings=off cxxflags=-fPIC cflags=-fPIC --prefix=C:/Users/clab/Documents/GitHub/vdbfusion/boost
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/RelWithDebInfo/external_boost-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\RelWithDebInfo\external_boost-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\RelWithDebInfo\external_boost-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\eac28677b667cbcbe7bcb3687ba02a96\external_boost-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E make_directory C:/Users/clab/Documents/GitHub/vdbfusion/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/CMakeFiles/Debug/external_boost-complete
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/Debug/external_boost-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Debug\external_boost-install;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Debug\external_boost-mkdir;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Debug\external_boost-download;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Debug\external_boost-update;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Debug\external_boost-patch;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Debug\external_boost-configure;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Debug\external_boost-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\Debug\external_boost-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Completed 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E make_directory C:/Users/clab/Documents/GitHub/vdbfusion/CMakeFiles/Release
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/CMakeFiles/Release/external_boost-complete
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/Release/external_boost-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Release\external_boost-install;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Release\external_boost-mkdir;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Release\external_boost-download;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Release\external_boost-update;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Release\external_boost-patch;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Release\external_boost-configure;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\Release\external_boost-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\Release\external_boost-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Completed 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E make_directory C:/Users/clab/Documents/GitHub/vdbfusion/CMakeFiles/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/CMakeFiles/MinSizeRel/external_boost-complete
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/MinSizeRel/external_boost-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\MinSizeRel\external_boost-install;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\MinSizeRel\external_boost-mkdir;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\MinSizeRel\external_boost-download;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\MinSizeRel\external_boost-update;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\MinSizeRel\external_boost-patch;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\MinSizeRel\external_boost-configure;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\MinSizeRel\external_boost-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\MinSizeRel\external_boost-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Completed 'external_boost'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E make_directory C:/Users/clab/Documents/GitHub/vdbfusion/CMakeFiles/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/CMakeFiles/RelWithDebInfo/external_boost-complete
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -E touch C:/Users/clab/Documents/GitHub/vdbfusion/boost/src/external_boost-stamp/RelWithDebInfo/external_boost-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\RelWithDebInfo\external_boost-install;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\RelWithDebInfo\external_boost-mkdir;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\RelWithDebInfo\external_boost-download;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\RelWithDebInfo\external_boost-update;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\RelWithDebInfo\external_boost-patch;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\RelWithDebInfo\external_boost-configure;C:\Users\clab\Documents\GitHub\vdbfusion\boost\src\external_boost-stamp\RelWithDebInfo\external_boost-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\RelWithDebInfo\external_boost-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\240ca2de4e58d99da2f5570902f6fb73\external_boost.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\Debug\external_boost-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\external_boost</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\Release\external_boost-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\external_boost</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\MinSizeRel\external_boost-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\external_boost</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\RelWithDebInfo\external_boost-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\external_boost</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/clab/Documents/GitHub/vdbfusion/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -SC:/Users/clab/Documents/GitHub/vdbfusion -BC:/Users/clab/Documents/GitHub/vdbfusion --check-stamp-file C:/Users/clab/Documents/GitHub/vdbfusion/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\3rdparty\OpenVDB\OpenVDB.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\3rdparty\blosc\blosc.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\3rdparty\boost\boost.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\3rdparty\find_dependencies.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\3rdparty\tbb\tbb.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\3.31.5\CMakeCXXCompiler.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\3.31.5\CMakeRCCompiler.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\3.31.5\CMakeSystem.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\blosc\tmp\external_blosc-mkdirs.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\boost\tmp\external_boost-mkdirs.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\openvdb\tmp\external_openvdb-mkdirs.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\tbb\tmp\external_tbb-mkdirs.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeParseArguments.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CheckCXXCompilerFlag.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\PatchInfo.txt.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\UpdateInfo.txt.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\cfgcmd.txt.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\download.cmake.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\extractfile.cmake.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\gitclone.cmake.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\mkdirs.cmake.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\FindGit.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\FindPythonInterp.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\FindThreads.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Internal\CheckCompilerFlag.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake\pybind11\FindPythonLibsNew.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake\pybind11\pybind11Common.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake\pybind11\pybind11Config.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake\pybind11\pybind11ConfigVersion.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake\pybind11\pybind11Targets.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake\pybind11\pybind11Tools.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\eigen3\cmake\Eigen3Config.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\eigen3\cmake\Eigen3ConfigVersion.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\eigen3\cmake\Eigen3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/clab/Documents/GitHub/vdbfusion/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -SC:/Users/clab/Documents/GitHub/vdbfusion -BC:/Users/clab/Documents/GitHub/vdbfusion --check-stamp-file C:/Users/clab/Documents/GitHub/vdbfusion/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\3rdparty\OpenVDB\OpenVDB.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\3rdparty\blosc\blosc.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\3rdparty\boost\boost.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\3rdparty\find_dependencies.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\3rdparty\tbb\tbb.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\3.31.5\CMakeCXXCompiler.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\3.31.5\CMakeRCCompiler.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\3.31.5\CMakeSystem.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\blosc\tmp\external_blosc-mkdirs.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\boost\tmp\external_boost-mkdirs.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\openvdb\tmp\external_openvdb-mkdirs.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\tbb\tmp\external_tbb-mkdirs.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeParseArguments.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CheckCXXCompilerFlag.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\PatchInfo.txt.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\UpdateInfo.txt.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\cfgcmd.txt.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\download.cmake.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\extractfile.cmake.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\gitclone.cmake.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\mkdirs.cmake.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\FindGit.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\FindPythonInterp.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\FindThreads.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Internal\CheckCompilerFlag.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake\pybind11\FindPythonLibsNew.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake\pybind11\pybind11Common.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake\pybind11\pybind11Config.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake\pybind11\pybind11ConfigVersion.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake\pybind11\pybind11Targets.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake\pybind11\pybind11Tools.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\eigen3\cmake\Eigen3Config.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\eigen3\cmake\Eigen3ConfigVersion.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\eigen3\cmake\Eigen3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/clab/Documents/GitHub/vdbfusion/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -SC:/Users/clab/Documents/GitHub/vdbfusion -BC:/Users/clab/Documents/GitHub/vdbfusion --check-stamp-file C:/Users/clab/Documents/GitHub/vdbfusion/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\3rdparty\OpenVDB\OpenVDB.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\3rdparty\blosc\blosc.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\3rdparty\boost\boost.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\3rdparty\find_dependencies.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\3rdparty\tbb\tbb.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\3.31.5\CMakeCXXCompiler.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\3.31.5\CMakeRCCompiler.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\3.31.5\CMakeSystem.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\blosc\tmp\external_blosc-mkdirs.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\boost\tmp\external_boost-mkdirs.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\openvdb\tmp\external_openvdb-mkdirs.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\tbb\tmp\external_tbb-mkdirs.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeParseArguments.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CheckCXXCompilerFlag.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\PatchInfo.txt.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\UpdateInfo.txt.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\cfgcmd.txt.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\download.cmake.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\extractfile.cmake.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\gitclone.cmake.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\mkdirs.cmake.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\FindGit.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\FindPythonInterp.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\FindThreads.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Internal\CheckCompilerFlag.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake\pybind11\FindPythonLibsNew.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake\pybind11\pybind11Common.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake\pybind11\pybind11Config.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake\pybind11\pybind11ConfigVersion.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake\pybind11\pybind11Targets.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake\pybind11\pybind11Tools.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\eigen3\cmake\Eigen3Config.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\eigen3\cmake\Eigen3ConfigVersion.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\eigen3\cmake\Eigen3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/clab/Documents/GitHub/vdbfusion/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\clab\anaconda3\envs\gaustudio3\Library\bin\cmake.exe -SC:/Users/clab/Documents/GitHub/vdbfusion -BC:/Users/clab/Documents/GitHub/vdbfusion --check-stamp-file C:/Users/clab/Documents/GitHub/vdbfusion/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\3rdparty\OpenVDB\OpenVDB.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\3rdparty\blosc\blosc.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\3rdparty\boost\boost.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\3rdparty\find_dependencies.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\3rdparty\tbb\tbb.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\3.31.5\CMakeCXXCompiler.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\3.31.5\CMakeRCCompiler.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\3.31.5\CMakeSystem.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\blosc\tmp\external_blosc-mkdirs.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\boost\tmp\external_boost-mkdirs.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\openvdb\tmp\external_openvdb-mkdirs.cmake;C:\Users\clab\Documents\GitHub\vdbfusion\tbb\tmp\external_tbb-mkdirs.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeParseArguments.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CheckCXXCompilerFlag.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CheckCXXSourceCompiles.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\CheckLibraryExists.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\PatchInfo.txt.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\UpdateInfo.txt.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\cfgcmd.txt.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\download.cmake.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\extractfile.cmake.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\gitclone.cmake.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\mkdirs.cmake.in;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\FindGit.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\FindPythonInterp.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\FindThreads.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Internal\CheckCompilerFlag.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake\pybind11\FindPythonLibsNew.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake\pybind11\pybind11Common.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake\pybind11\pybind11Config.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake\pybind11\pybind11ConfigVersion.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake\pybind11\pybind11Targets.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\cmake\pybind11\pybind11Tools.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\eigen3\cmake\Eigen3Config.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\eigen3\cmake\Eigen3ConfigVersion.cmake;C:\Users\clab\anaconda3\envs\gaustudio3\Library\share\eigen3\cmake\Eigen3Targets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\external_boost">
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\clab\Documents\GitHub\vdbfusion\ZERO_CHECK.vcxproj">
+      <Project>{5B7166F8-F9F0-33D1-99F8-2ABD1A0D4604}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

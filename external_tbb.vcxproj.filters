@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\6dc92333479baf78da00489670d1cd55\external_tbb-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\6dc92333479baf78da00489670d1cd55\external_tbb-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\6dc92333479baf78da00489670d1cd55\external_tbb-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\6dc92333479baf78da00489670d1cd55\external_tbb-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\6dc92333479baf78da00489670d1cd55\external_tbb-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\6dc92333479baf78da00489670d1cd55\external_tbb-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\6dc92333479baf78da00489670d1cd55\external_tbb-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\eac28677b667cbcbe7bcb3687ba02a96\external_tbb-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\240ca2de4e58d99da2f5570902f6fb73\external_tbb.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\external_tbb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DDC88A06-911A-34ED-B91D-B4887BC7DBDC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\73ef5fc1f0e1df3ce6797872fe268e02\external_blosc-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\73ef5fc1f0e1df3ce6797872fe268e02\external_blosc-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\73ef5fc1f0e1df3ce6797872fe268e02\external_blosc-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\73ef5fc1f0e1df3ce6797872fe268e02\external_blosc-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\73ef5fc1f0e1df3ce6797872fe268e02\external_blosc-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\73ef5fc1f0e1df3ce6797872fe268e02\external_blosc-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\73ef5fc1f0e1df3ce6797872fe268e02\external_blosc-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\eac28677b667cbcbe7bcb3687ba02a96\external_blosc-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\240ca2de4e58d99da2f5570902f6fb73\external_blosc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\external_blosc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DDC88A06-911A-34ED-B91D-B4887BC7DBDC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

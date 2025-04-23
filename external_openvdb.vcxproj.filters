@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\bf531eda382a7bef28e725e82498c577\external_openvdb-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\bf531eda382a7bef28e725e82498c577\external_openvdb-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\bf531eda382a7bef28e725e82498c577\external_openvdb-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\bf531eda382a7bef28e725e82498c577\external_openvdb-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\bf531eda382a7bef28e725e82498c577\external_openvdb-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\bf531eda382a7bef28e725e82498c577\external_openvdb-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\bf531eda382a7bef28e725e82498c577\external_openvdb-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\eac28677b667cbcbe7bcb3687ba02a96\external_openvdb-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\240ca2de4e58d99da2f5570902f6fb73\external_openvdb.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\clab\Documents\GitHub\vdbfusion\CMakeFiles\external_openvdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DDC88A06-911A-34ED-B91D-B4887BC7DBDC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
